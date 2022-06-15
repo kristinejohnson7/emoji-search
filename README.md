@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 Building an emoji search 🙌🏻
 
 💬 Instructions
 Create four components
 
-=======
-💬 Instructions
-Create four components
->>>>>>> 3a7dbfe15110f41c02eee4430fa8e76650cffaa7
 <Header> 
 <SearchInput>
 <EmojiResults>
