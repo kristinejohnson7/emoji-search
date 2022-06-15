@@ -1,0 +1,26 @@
+.emojiResults {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 1px;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  ul {
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  ul {
+    left: 60px;
+  }
+}

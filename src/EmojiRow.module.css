@@ -1,0 +1,35 @@
+.emojiRow {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  cursor: pointer;
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #a291ab;
+}
+
+.emojiRow:hover {
+  background-color: #9890e3;
+  color: white;
+}
+
+li {
+  width: 60%;
+  max-width: 800px;
+}
+
+@media only screen and (max-width: 750px) {
+  li {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  li {
+    width: 90%;
+  }
+}
